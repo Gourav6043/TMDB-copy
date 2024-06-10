@@ -1,0 +1,47 @@
+.searchBar {
+    padding: 1rem 2rem;
+    border-bottom: 1px solid lightgray;
+}
+
+.searchBar #searchKeyword {
+    border: none;
+    font-size: 18px;
+    font-style: italic;
+    width: 80%;
+    color: lightgray;
+    margin-left: 5px;
+}
+
+.searchBar #searchKeyword:focus {
+    outline:none;
+}
+
+main {
+    display: flex;
+    padding: 2rem 3rem;
+}
+
+main .sidebar {
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    overflow: hidden;
+    width: 24%;
+}
+
+.sidebarTitle {
+    background-color: rgb(0, 153, 255);
+    color: white;
+    padding: 20px 10px;
+    font-weight: bold;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebarList {
+    display: flex;
+    padding: 5px 10px;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
